@@ -24,7 +24,7 @@ export default withOGImage<'query', keyof typeof QueryEnum>({
       const query = {
         siteName: siteName ?? 'Site Name',
         description: description ?? 'Description',
-        logo: logo ?? 'https://og.thcl.dev/images/logo.jpg',
+        logo: logo ?? 'https://og-blush.vercel.app/images/logo.jpg',
         theme: theme ?? 'dark',
         templateTitle,
         logoWidth: logoWidth ?? '100',

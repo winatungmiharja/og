@@ -22,7 +22,7 @@ export default withOGImage<'query', keyof typeof query>({
           <body>
             <div class="container">
               <header>
-                <img src="https://og.thcl.dev/images/logo.jpg" alt="Favicon" />
+                <img src="https://og-blush.vercel.app/images/logo.jpg" alt="Favicon" />
                 <div class="right">
                   <h2>${query.type} by</h2>
                   <p class="gradient">Theodorus Clarence</p>

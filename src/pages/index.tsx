@@ -27,13 +27,6 @@ export default function HomePage() {
                 Link Builder
               </ButtonLink>
             </div>
-
-            <footer className='absolute text-gray-800 bottom-2'>
-              © {new Date().getFullYear()} By{' '}
-              <CustomLink href='https://theodorusclarence.com?ref=og'>
-                Theodorus Clarence
-              </CustomLink>
-            </footer>
           </div>
         </section>
       </main>
